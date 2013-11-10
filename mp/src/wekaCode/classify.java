@@ -30,7 +30,7 @@ public class classify {
 		tree.buildClassifier(data);
 	}
 
-	public static void main(String[] args)
+	/*public static void main(String[] args)
 	{
 		classify c=new classify();
 		try {
@@ -43,7 +43,7 @@ public class classify {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-	}
+	}*/
 	public double[] get_probability(double[] instance_data) throws Exception
 	{
 		Instance ex = new Instance(instance_data.length+1); 
